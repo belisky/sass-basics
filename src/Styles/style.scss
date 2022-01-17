@@ -15,9 +15,9 @@
      line-height:1.6;
  } 
  .showcase {
-     background-color: $primary-color;
-     height:600px;
-     color:set-text-color($primary-color);
+     @include set-background($primary-color);
+      height:600px;
+    
      nav {
          display:flex;
          align-items:center;
@@ -38,10 +38,7 @@
          }
      }
 
-      a {
-     
-     color:#fff
- }
+       
  &-content {
      height:100%;
      display:flex;
@@ -54,11 +51,12 @@
          font-size:50px;
          line-height:1.2;
      }
+     p {
+         margin:20px 0;
+     }
  }
  }
- img {
-     width:100%;
- }
+  
 
 
  

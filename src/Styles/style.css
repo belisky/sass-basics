@@ -13,10 +13,12 @@
 
 .btn-primary {
   background-color: #418bff;
+  color: #fff;
 }
 
 .btn-secondary {
   background-color: #ff8700;
+  color: #fff;
 }
 
 .container {
@@ -41,8 +43,8 @@ body {
 
 .showcase {
   background-color: #0e6cff;
-  height: 600px;
   color: #fff;
+  height: 600px;
 }
 
 .showcase nav {
@@ -76,10 +78,6 @@ body {
   color: #ff8700;
 }
 
-.showcase a {
-  color: #fff;
-}
-
 .showcase-content {
   height: 100%;
   display: -webkit-box;
@@ -102,7 +100,7 @@ body {
   line-height: 1.2;
 }
 
-img {
-  width: 100%;
+.showcase-content p {
+  margin: 20px 0;
 }
 /*# sourceMappingURL=style.css.map */
