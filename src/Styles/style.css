@@ -68,6 +68,10 @@ body {
   padding: 15px;
 }
 
+.showcase nav a {
+  color: #fff;
+}
+
 .showcase nav a:hover {
   color: #ff8700;
 }
