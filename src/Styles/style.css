@@ -1,4 +1,4 @@
-@import 'config';
+@use 'config' as *;
 .btn-primary, .btn-secondary {
   display: inline-block;
   border-radius: 5px;
@@ -17,6 +17,7 @@
 }
 
 .btn-secondary {
+  background-color: #ff8700;
   background-color: #ff8700;
   color: #fff;
 }
