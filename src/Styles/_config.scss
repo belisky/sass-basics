@@ -19,9 +19,3 @@ $secondary-color:#ff8700;
     color:set-text-color($color);
 }
 
-// Margin and padding classes
-$spaceamounts:(1,2,3,4,5);
-
-@each $space in $spaceamounts {
-  
-}
